@@ -2,9 +2,9 @@
 
 /*
 Plugin Name: Tiny Grid
-Plugin URI: http://fyaconiello.github.com/wp-plugin-template
+Plugin URI: http://aaroniker.me
 Description: Adds buttons to the TinyMCE Editor to use the bootstrap grid system
-Version: 1.0
+Version: 0.1
 Author: Aaron Iker
 Author URI: http://www.aaroniker.me
 License: GPL2
