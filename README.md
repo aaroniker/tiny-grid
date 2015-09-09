@@ -15,3 +15,7 @@ Wordpress plugin that adds buttons to the TinyMCE Editor to use the bootstrap gr
 ## Screenshot
 
 ![Screenshot] (http://aaroniker.me/editor.jpg)
+
+## Credits
+
+Feather Icons http://colebemis.com/feather/
