@@ -1,0 +1,4 @@
+.mce-visualblocks div[class^='col'],
+.mce-visualblocks div[class*=' col'] {
+	border: 1px dashed #ddd;
+}
