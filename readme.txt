@@ -25,20 +25,25 @@ You can place your content wherether you want.
 
 1. Here you can see the new tinymce buttons
 
-
 == Frequently Asked Questions ==
 
 = ToDo =
 
-Change between LG, MD, SM, XS and select the col-size dynamic
+* Select grid dynamic
 
 == Changelog ==
+
+= 0.3 =
+* Added lg, md, sm, xs selection
+* Added popup window
+* 2, 3, 4 grid layout
 
 = 0.1 =
 * Very first version of this plugin.
 
 == Upgrade Notice ==
-...
+
+Just replace all files.
 
 == Credits ==
 Feather Icons: http://colebemis.com/feather/

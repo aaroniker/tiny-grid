@@ -4,7 +4,7 @@
 Plugin Name: Tiny Grid
 Plugin URI: http://aaroniker.me
 Description: Adds buttons to the TinyMCE Editor to use the bootstrap grid system
-Version: 0.2
+Version: 0.3
 Author: Aaron Iker
 Author URI: http://www.aaroniker.me
 License: GPL2
@@ -12,29 +12,6 @@ License: GPL2
 
 if (!defined('WPINC'))
 	die();
-
-if(!class_exists('Tiny_Grid'))
-{
-    class Tiny_Grid
-    {
-		
-        public function __construct()
-        {
-			
-        }
-		
-        public static function activate()
-        {
-			
-        }
-    
-        public static function deactivate()
-        {
-
-        }
-		
-    }
-}
 
 function tiny_grid_scripts()
 {
@@ -74,7 +51,7 @@ add_action('admin_init', 'tiny_grid_buttons');
 
 function tiny_grid_buttons_register($buttons)
 {
-     array_push($buttons, "2grid", "3grid", "visualblocks");
+     array_push($buttons, "grid", "visualblocks");
      return $buttons;
 }
 
@@ -101,12 +78,5 @@ function tiny_grid_admin_head()
 
 foreach(array('post.php','post-new.php') as $hook)
      add_action("admin_head-$hook", 'tiny_grid_admin_head');
-
-if(class_exists('Tiny_Grid')) {
-	register_activation_hook(__FILE__, array('Tiny_Grid', 'activate'));
-    register_deactivation_hook(__FILE__, array('Tiny_Grid', 'deactivate'));
-
-    $tiny_grid = new Tiny_Grid();	
-}
 
 ?>
