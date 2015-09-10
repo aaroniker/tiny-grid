@@ -9,6 +9,8 @@ jQuery(document).ready(function($) {
 				onclick : function() {
 					ed.windowManager.open( {
 						title: 'Insert grid',
+						width : 320,
+						height: 150,
 						body: [{
 							type: 'listbox', 
 							name: 'size', 
@@ -55,5 +57,5 @@ jQuery(document).ready(function($) {
 		}
 	});
 	
-	tinymce.PluginManager.add('tiny_grid_button_script', tinymce.plugins.TinyGridButtons);
+	tinymce.PluginManager.add('tiny_grid_scripts', tinymce.plugins.TinyGridButtons);
 });

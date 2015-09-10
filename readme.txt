@@ -33,6 +33,11 @@ You can place your content wherether you want.
 
 == Changelog ==
 
+= 0.4 =
+* Added options page
+* Load grid system at frontend
+* Change between Bootstrap 3 & 4
+
 = 0.3 =
 * Added lg, md, sm, xs selection
 * Added popup window
