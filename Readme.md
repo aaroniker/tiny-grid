@@ -3,11 +3,15 @@
 With this plugin it's very easy to add the grid system from Twitter Bootstrap to the tinymce editor.
 You can place your content wherether you want.
 
+https://wordpress.org/plugins/tiny-grid/
+
 ## Installation
 
 1. Upload the folder `tiny-grid` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Use the grid buttons at the tinymce
+
+Or search for "Tiny Grid" at your Wordpress backend.
 
 ## Screenshot
 
